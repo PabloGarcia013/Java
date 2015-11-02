@@ -5,6 +5,9 @@
  */
 package simuduck;
 
+import Ducks.Duck;
+import java.awt.Color;
+
 /**
  *
  * @author pablo.garcia
@@ -15,7 +18,8 @@ public class SimUDuck {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Duck d = new Duck(Color.YELLOW,2,"Pablo");
+       d.display();
     }
     
 }
