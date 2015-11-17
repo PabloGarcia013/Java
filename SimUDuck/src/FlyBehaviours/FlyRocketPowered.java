@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package QuackBehaviours;
+package FlyBehaviours;
 
 /**
  *
- * @author pablo.garcia
+ * @author v
  */
-public class MuteQuack implements QuackBehaviour{
+public class FlyRocketPowered implements FlyBehaviour{
     
     @Override
-    public void quack(){
-        System.out.println("... ... ...");
+    public void fly(){
+        System.out.println("I'm flying with a rocket!");
     }
     
 }

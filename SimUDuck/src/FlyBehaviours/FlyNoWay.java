@@ -13,8 +13,7 @@ public class FlyNoWay implements FlyBehaviour{
     
     @Override
     public void fly(){
-        System.out.println("**************************************************");
-        System.out.println("I Can't Fly :(");
+        System.out.println("I can't fly");
     }
     
 }

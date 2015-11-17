@@ -6,7 +6,9 @@
 package simuduck;
 
 import Ducks.Duck;
-import java.awt.Color;
+import Ducks.ModelDuck;
+import FlyBehaviours.FlyRocketPowered;
+
 
 /**
  *
@@ -18,8 +20,8 @@ public class SimUDuck {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       Duck d = new Duck(Color.YELLOW,2,"Pablo");
-       d.display();
+        Duck m = new ModelDuck();
+        m.performFly();
+        m.performQuack();
     }
-    
 }

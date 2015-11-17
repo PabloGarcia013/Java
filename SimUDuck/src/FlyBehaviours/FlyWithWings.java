@@ -13,7 +13,6 @@ public class FlyWithWings implements FlyBehaviour{
     
     @Override
     public void fly(){
-        System.out.println("**************************************************");
-        System.out.println("I'm Flying with my Wings!");
+        System.out.println("I'm flying!!");
     }
 }
